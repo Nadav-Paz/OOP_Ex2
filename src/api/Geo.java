@@ -1,7 +1,8 @@
+package api;
+
 /**
  * 
  */
-package api;
 
 /**
  * @author Nadav
@@ -63,6 +64,6 @@ public class Geo implements geo_location {
 	}
 	public String toString()
 	{
-		return ("("+this.x+","+this.y+","+this.z+")");
+		return String.format("[%f, %f, %f]", this.x, this.y, this.z);
 	}
 }
