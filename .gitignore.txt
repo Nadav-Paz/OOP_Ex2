@@ -1,2 +1,6 @@
 /.settings
 /bin
+..classpath
+.TestF1
+.TestF1.txt
+..project
